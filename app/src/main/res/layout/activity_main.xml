@@ -9,6 +9,7 @@
     tools:context="com.example.charl.carta_de_presentacion.MainActivity">
 
     <ImageView
+        android:id="@+id/Img"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@mipmap/sebas"
@@ -17,6 +18,7 @@
         />
 
     <TextView
+        android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Carlos Sebastian Leal Echegoyen"
@@ -28,6 +30,7 @@
          />
 
     <TextView
+        android:id="@+id/Work"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingeniero en informatica"
@@ -64,6 +67,7 @@
 
 
         <TextView
+            android:id="@+id/GH"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="00198216"
@@ -84,6 +88,7 @@
             />
 
         <TextView
+            android:id="@+id/WA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="7603-2739"
@@ -111,6 +116,7 @@
             />
 
         <TextView
+            android:id="@+id/Mail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="00198216@uca.edu.sv"
@@ -130,6 +136,7 @@
             />
 
         <TextView
+            android:id="@+id/Tweet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sebastian_Lealu"
@@ -148,17 +155,17 @@
         android:layout_gravity="bottom"
         android:gravity="center">
 
-        <TextView
+        <Button
+            android:id="@+id/Bttn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Powered by SLIndustries"
-            android:fontFamily="serif"
-            android:layout_marginTop="10dp"
+            android:text="Share Data"
+            android:layout_marginTop="20dp"
             android:textSize="15sp"
             android:gravity="bottom"
-
             android:textColor="#000"
             />
+
     </LinearLayout>
 
 </LinearLayout>
